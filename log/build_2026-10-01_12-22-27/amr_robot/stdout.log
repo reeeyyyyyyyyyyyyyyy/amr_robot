@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/launch
+-- Installing: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/launch/gazebo.launch.py
+-- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/launch/robot.launch.py
+-- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/urdf
+-- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/urdf/amr_robot.urdf
+-- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/urdf/amr_robot_generated.urdf
+-- Installing: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/urdf/amr_robot.xacro
+-- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/config
+-- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/ament_index/resource_index/package_run_dependencies/amr_robot
+-- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/ament_index/resource_index/parent_prefix_path/amr_robot
+-- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/environment/path.sh
+-- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/environment/path.dsv
+-- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/local_setup.bash
+-- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/local_setup.sh
+-- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/local_setup.zsh
+-- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/local_setup.dsv
+-- Installing: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/package.dsv
+-- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/ament_index/resource_index/packages/amr_robot
+-- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/cmake/amr_robotConfig.cmake
+-- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/cmake/amr_robotConfig-version.cmake
+-- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/package.xml

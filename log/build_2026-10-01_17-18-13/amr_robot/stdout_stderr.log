@@ -1,0 +1,36 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jetsonAMR/ros2_rey/build/amr_robot
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/launch/__pycache__/gazebo.launch.cpython-312.pyc
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/launch/gazebo.launch.py
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/launch/robot.launch.py
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/urdf/amr_robot.urdf
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/urdf/amr_robot.xacro
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/urdf/amr_robot_generated.urdf
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/config/controllers.yaml
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/worlds/amr_world.sdf
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/ament_index/resource_index/package_run_dependencies/amr_robot
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/ament_index/resource_index/parent_prefix_path/amr_robot
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/environment/path.sh
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/environment/path.dsv
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/local_setup.bash
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/local_setup.sh
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/local_setup.zsh
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/local_setup.dsv
+-- Symlinking: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/package.dsv
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/ament_index/resource_index/packages/amr_robot
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/cmake/amr_robotConfig.cmake
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/cmake/amr_robotConfig-version.cmake
+-- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/package.xml

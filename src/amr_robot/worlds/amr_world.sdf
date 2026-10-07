@@ -1,0 +1,238 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.9">
+  <world name="amr_world">
+
+    <!-- Sensors -->
+    <plugin
+      filename="gz-sim-sensors-system"
+      name="gz::sim::systems::Sensors">
+    </plugin>
+
+    <!-- Physics -->
+    <physics name="1ms" type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+    <plugin
+      filename="gz-sim-physics-system"
+      name="gz::sim::systems::Physics">
+    </plugin>
+
+    <plugin
+      filename="gz-sim-user-commands-system"
+      name="gz::sim::systems::UserCommands">
+    </plugin>
+
+    <plugin
+      filename="gz-sim-scene-broadcaster-system"
+      name="gz::sim::systems::SceneBroadcaster">
+    </plugin>
+
+    <!-- Light -->
+    <light name="sun" type="directional">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <!-- Ground -->
+    <model name="ground_plane">
+      <static>true</static>
+
+      <link name="link">
+
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </visual>
+
+      </link>
+    </model>
+
+
+    <!-- ===================================================== -->
+    <!-- ROOM WALLS                                            -->
+    <!-- Room size: 8m x 6m                                   -->
+    <!-- ===================================================== -->
+
+    <!-- Left wall -->
+    <model name="wall_left">
+      <static>true</static>
+
+      <pose>-4 0 0.75 0 0 0</pose>
+
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 6 1.5</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1 6 1.5</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+
+    <!-- Right wall -->
+    <model name="wall_right">
+      <static>true</static>
+
+      <pose>4 0 0.75 0 0 0</pose>
+
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 6 1.5</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1 6 1.5</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+
+    <!-- Front wall -->
+    <model name="wall_front">
+      <static>true</static>
+
+      <pose>0 -3 0.75 0 0 0</pose>
+
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>8 0.1 1.5</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>8 0.1 1.5</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+
+    <!-- Back wall -->
+    <model name="wall_back">
+      <static>true</static>
+
+      <pose>0 3 0.75 0 0 0</pose>
+
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>8 0.1 1.5</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>8 0.1 1.5</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+
+    <!-- ===================================================== -->
+    <!-- INTERNAL OBSTACLE 1                                  -->
+    <!-- ===================================================== -->
+
+    <model name="obstacle_1">
+      <static>true</static>
+
+      <pose>1.5 1.2 0.5 0 0 0</pose>
+
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1.5 0.8 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.5 0.8 1.0</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+
+    <!-- ===================================================== -->
+    <!-- INTERNAL OBSTACLE 2                                  -->
+    <!-- ===================================================== -->
+
+    <model name="obstacle_2">
+      <static>true</static>
+
+      <pose>-1.5 -1.0 0.5 0 0 0</pose>
+
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.8 1.5 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.8 1.5 1.0</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

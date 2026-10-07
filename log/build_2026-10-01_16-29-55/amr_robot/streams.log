@@ -1,0 +1,33 @@
+[0.028s] Invoking command in '/home/jetsonAMR/ros2_rey/build/amr_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jetsonAMR/ros2_rey/build/amr_robot -- -j6 -l6
+[0.203s] Invoked command in '/home/jetsonAMR/ros2_rey/build/amr_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jetsonAMR/ros2_rey/build/amr_robot -- -j6 -l6
+[0.235s] Invoking command in '/home/jetsonAMR/ros2_rey/build/amr_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jetsonAMR/ros2_rey/build/amr_robot
+[3.888s] -- Install configuration: ""
+[3.888s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/launch
+[3.889s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/launch/gazebo.launch.py
+[3.891s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/launch/__pycache__
+[3.892s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/launch/__pycache__/gazebo.launch.cpython-312.pyc
+[3.894s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/launch/robot.launch.py
+[3.895s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/urdf
+[3.895s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/urdf/amr_robot.urdf
+[3.896s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/urdf/amr_robot_generated.urdf
+[3.896s] -- Installing: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/urdf/amr_robot.xacro
+[3.899s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/config
+[3.900s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/config/controllers.yaml
+[3.900s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/worlds
+[3.901s] -- Installing: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/worlds/amr_world.sdf
+[3.902s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/ament_index/resource_index/package_run_dependencies/amr_robot
+[3.903s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/ament_index/resource_index/parent_prefix_path/amr_robot
+[3.904s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/environment/ament_prefix_path.sh
+[3.905s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/environment/ament_prefix_path.dsv
+[3.905s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/environment/path.sh
+[3.905s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/environment/path.dsv
+[3.907s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/local_setup.bash
+[3.908s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/local_setup.sh
+[3.909s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/local_setup.zsh
+[3.909s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/local_setup.dsv
+[3.909s] -- Installing: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/package.dsv
+[3.909s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/ament_index/resource_index/packages/amr_robot
+[3.914s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/cmake/amr_robotConfig.cmake
+[3.915s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/cmake/amr_robotConfig-version.cmake
+[3.915s] -- Up-to-date: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/package.xml
+[3.918s] Invoked command in '/home/jetsonAMR/ros2_rey/build/amr_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jetsonAMR/ros2_rey/build/amr_robot

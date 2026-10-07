@@ -1,0 +1,29 @@
+[0.023s] Invoking command in '/home/jetsonAMR/ros2_rey/build/amr_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jetsonAMR/ros2_rey/build/amr_robot -- -j6 -l6
+[0.120s] Invoked command in '/home/jetsonAMR/ros2_rey/build/amr_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jetsonAMR/ros2_rey/build/amr_robot -- -j6 -l6
+[0.142s] Invoking command in '/home/jetsonAMR/ros2_rey/build/amr_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jetsonAMR/ros2_rey/build/amr_robot
+[0.165s] -- Install configuration: ""
+[0.166s] -- Execute custom install script
+[0.166s] -- Symlinking: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/launch/__pycache__/gazebo.launch.cpython-312.pyc
+[0.187s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/launch/gazebo.launch.py
+[0.188s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/launch/robot.launch.py
+[0.189s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/urdf/amr_robot.urdf
+[0.190s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/urdf/amr_robot.xacro
+[0.190s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/urdf/amr_robot_generated.urdf
+[0.191s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/config/controllers.yaml
+[0.191s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/worlds/amr_world.sdf
+[0.192s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/ament_index/resource_index/package_run_dependencies/amr_robot
+[0.192s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/ament_index/resource_index/parent_prefix_path/amr_robot
+[0.193s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/environment/ament_prefix_path.sh
+[0.193s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/environment/ament_prefix_path.dsv
+[0.193s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/environment/path.sh
+[0.194s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/environment/path.dsv
+[0.194s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/local_setup.bash
+[0.194s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/local_setup.sh
+[0.195s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/local_setup.zsh
+[0.195s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/local_setup.dsv
+[0.195s] -- Symlinking: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/package.dsv
+[0.213s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/ament_index/resource_index/packages/amr_robot
+[0.214s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/cmake/amr_robotConfig.cmake
+[0.214s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/cmake/amr_robotConfig-version.cmake
+[0.214s] -- Up-to-date symlink: /home/jetsonAMR/ros2_rey/install/amr_robot/share/amr_robot/package.xml
+[0.218s] Invoked command in '/home/jetsonAMR/ros2_rey/build/amr_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jetsonAMR/ros2_rey/build/amr_robot

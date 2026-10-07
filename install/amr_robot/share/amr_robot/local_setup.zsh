@@ -1,0 +1,1 @@
+/home/jetsonAMR/ros2_rey/build/amr_robot/ament_cmake_environment_hooks/local_setup.zsh
